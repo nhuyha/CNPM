@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BingoAI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BingoAI</h1>
+    <div class="input-section">
+      <label for="course">Course:</label>
+      <input type="text" id="course">
+      <label for="lesson">Lesson:</label>
+      <input type="text" id="lesson">
+      <label for="learning-object">Learning Object:</label>
+      <input type="text" id="learning-object">
+      <label for="num-students">Number of Students:</label>
+      <input type="number" id="num-students">
+      <button onclick="generateBingo()">Generate Bingo</button>
+      <button onclick="resetBingo()">Reset</button>
+    </div>
+    <div id="bingo-board" class="bingo-board">
+      <!-- Bingo board will be generated here -->
+    </div>
+    <div id="question-list" class="question-list">
+      <!-- Question list will be displayed here -->
+    </div>
+    <button onclick="downloadBingo()">Download Bingo</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
