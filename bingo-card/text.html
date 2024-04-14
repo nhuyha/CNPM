@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bingo Board</h1>
+    <div class="bingo-board">
+        <?php
+            // Đọc dữ liệu từ file.txt
+            $lines = file("file.txt");
+            shuffle($lines); // Xáo trộn dòng để tạo bingo board ngẫu nhiên
+            // Tạo bảng bingo
+            for ($i = 0; $i < 25; $i++) {
+                echo "<div class='cell'>" . trim($lines[$i]) . "</div>";
+            }
+        ?>
+    </div>
+</body>
+</html>
