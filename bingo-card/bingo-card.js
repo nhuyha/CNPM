@@ -12,14 +12,14 @@ function initAll() {
 }
 
 function newCard() {
-  for(var i=0 ; i<24 ; i++){
+  for(var i=0 ; i<25 ; i++){
       setSquare(i);
     }
 }
 
 function setSquare(thisSquare){
   var currentSquare = "square" + thisSquare;
-  var colPlace = new Array(0,1,2,3,4,0,1,2,3,4,0,1,3,4,0,1,2,3,4,0,1,2,3,4);
+  var colPlace = new Array(0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4);
   var colBasis = colPlace[thisSquare] * 15;
   var newNum = colBasis + getNewNum() + 1;
 
@@ -43,3 +43,4 @@ function anotherCard() {
   newCard();
   return false;
 }
+
