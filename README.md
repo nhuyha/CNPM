@@ -1,9 +1,9 @@
 # BingoGPT
 
-<img src='MainPage2.png' width='600px'/>
+<img src='MainPage3.png' width='600px'/>
 
 ## Overview
-BingoGPT brings an innovative twist to the classic game of Bingo by integrating GPT-powered prompts to generate unique Bingo cards and corresponding question lists.
+QAPGPT brings an innovative twist to the classic game of Bingo by integrating GPT-powered prompts to generate unique Bingo cards and corresponding question lists.
 
 ## Features
 - Automatically generate Bingo cards with answers derived from GPT prompts.
