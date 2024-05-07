@@ -1,7 +1,15 @@
-# CoverLetterGPT.xyz
+# BingoGPT
 
-<img src='public/homepage.png' width='600px'/>
+<img src='MainPage2.png' width='600px'/>
 
+## Overview
+BingoGPT brings an innovative twist to the classic game of Bingo by integrating GPT-powered prompts to generate unique Bingo cards and corresponding question lists.
+
+## Features
+- Automatically generate Bingo cards with answers derived from GPT prompts.
+- Create customized question lists that correspond to each Bingo card's answers.
+- Simple and intuitive user interface for creating and printing Bingo cards and questions.
+  
 ## Running it locally
 After cloning this repo, you can run it locally by following these steps:
 
@@ -15,27 +23,3 @@ After cloning this repo, you can run it locally by following these steps:
 6. Run `wasp start`
 7. Go to `localhost:3000` in your browser (your NodeJS server will be running on port `3001`)
 8. install the [Wasp extension for VSCode](https://marketplace.visualstudio.com/items?itemName=wasp-lang.wasp) for the best DX
-
-## How it works
-
-[coverlettergpt.xyz](http://coverlettergpt.xyz) was built in a couple of days using a few really cool tools:
-
-- 🐝 [Wasp](https://wasp-lang.dev) - allows you to build full-stack apps with 10x less boilerplate
-- 🎨 [Chakra-ui](https://chakra-ui.com/) - UI components for React that look good and are easy to work with
-- 🤖 [OpenAI](https://openai.com/) - GPT-3.5 turbo and GPT-4 API
-- 💸 [Stripe](https://stripe.com/) - for payments
-- ⚡️ [Lightning / Bolt11](https://github.com/bitcoinjs/bolt11) - for Bitcoin Lightning payments
-
-[Wasp](https://wasp-lang.dev) as the full-stack framework allows you to describe your app’s core features in the `main.wasp` config file in the root directory. Then it builds and glues these features into a React-Express-Prisma app for you so that you can focus on writing the client and server-side logic instead of configuring. For example, I did not have to use any third-party libraries for Google Authentication. I just wrote a couple lines of code in the config file stating that I want to use Google Auth, and Wasp configures it for me. Check out the `main.wasp` file for more.
-
-Also, [Chakra-ui](https://chakra-ui.com/) is great for building nice looking UI’s really quickly and easily. Some people are turned off by the fact that they’re React components, but I find that they’re easy to customize and configure, and get me started on designs 10x faster and with less code than tailwind.
-
-For more info on the prompts and configuration I used for the [OpenAI](https://openai.com/) API, check out the `src/server/actions.ts` file.
-
-[Stripe](https://stripe.com/) makes the payment functionality super easy. I configure two subscription products, one for GPT-3.5 turbo and another for GPT-4. After the user pays, I update their `hasPaid` and `datePaid` fields in the database.
-
-[Lightning / Bolt11](https://github.com/bitcoinjs/bolt11) is a great library for working with Bitcoin Lightning payments. I used it to generate a Lightning invoice for the user to pay. After the user pays, I update their `LnPayment.status` field in the database (see `src/server/ln.ts`), which allows the user to perform a generation on the front-end. I personally accept the payments to my [Alby](https://getalby.com/) lightning address.
-
-I also implemented a cron job to send an email to the user to notify them 2 weeks before their subscription ends. I used [SendGrid](https://sendgrid.com/) for the email service.
-
-If you have any other questions, feel free to reach out to me on [twitter](https://twitter.com/hot_town)
