@@ -1,4 +1,4 @@
-# BingoGPT
+# QAGPT
 
 <img src='MainPage3.png' width='600px'/>
 
