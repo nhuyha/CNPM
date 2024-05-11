@@ -1,13 +1,5 @@
 # Security Policy
 
-## Supported Versions
-
-Currently, only the latest version of the QAGPT repository is supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
-
 ## Reporting a Vulnerability
 
 The security of our QAGPT repository is important to us. If you have discovered a security vulnerability in the QAGPT, please report it to us so we can work together to fix it promptly. 
