@@ -1,15 +1,15 @@
-# BingoGPT
+# QAGPT
 
-<img src='MainPage2.png' width='600px'/>
+<img src='MainPage3.png' width='600px'/>
 
 ## Overview
-BingoGPT brings an innovative twist to the classic game of Bingo by integrating GPT-powered prompts to generate unique Bingo cards and corresponding question lists.
+"QaGPT" is an innovative tool designed to streamline the process of generating questions and answers for educational content. By leveraging information about courses, lessons, and learning objectives, QaGPT automates the creation of comprehensive question sets that align closely with the material being taught.
 
 ## Features
-- Automatically generate Bingo cards with answers derived from GPT prompts.
-- Create customized question lists that correspond to each Bingo card's answers.
-- Simple and intuitive user interface for creating and printing Bingo cards and questions.
-  
+- Automatic Question Generation: QAGPT automatically generates a variety of questions based on inputted course, lesson, and learning objectives.
+- Aligned with Learning Objectives: Questions are designed to closely align with the learning objectives of the course or lesson, ensuring relevance and effectiveness.
+- Accessible Interface: With an intuitive user interface, QaGPT is easy to navigate and use, making it accessible to educators with varying levels of technical expertise.
+
 ## Running it locally
 After cloning this repo, you can run it locally by following these steps:
 
