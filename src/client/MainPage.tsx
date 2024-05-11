@@ -544,7 +544,7 @@ function MainPage() {
                   'transform 0.05s ease-in, transform 0.05s ease-out, background 0.3s, opacity 0.3s, border 0.3s'
                 }
               >
-{/*                <FormControl my={2}>
+                <FormControl my={2}>
                   <Slider
                     id='temperature'
                     defaultValue={30}
@@ -577,7 +577,7 @@ function MainPage() {
                       color: 'text-contrast-lg',
                     }}
                   >
-                    cover letter creativity level
+                    QA creativity level
                   </FormLabel>
                 </FormControl>
                                   
@@ -596,7 +596,7 @@ function MainPage() {
                 transition={
                   'transform 0.05s ease-in, transform 0.05s ease-out, background 0.3s, opacity 0.3s, border 0.3s'
                 }
-              > */}
+              > 
 {/*                <FormControl display='flex' alignItems='center' mt={3} mb={3}>
                   <Checkbox id='includeWittyRemark' defaultChecked={true} {...register('includeWittyRemark')} />
                   <FormLabel
