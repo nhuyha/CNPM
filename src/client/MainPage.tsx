@@ -423,7 +423,7 @@ function MainPage() {
                 <Input
                   id='location'
                   borderRadius={0}
-                  placeholder='Location'
+                  placeholder='Assigning a name to QA'
                   {...register('location', {
                     required: 'This is not required',
                     minLength: {

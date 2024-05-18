@@ -9,7 +9,7 @@
 ALTER TABLE "SocialLogin" DROP CONSTRAINT "SocialLogin_userId_fkey";
 
 -- AlterTable
-ALTER TABLE "User" DROP COLUMN "password";
+--ALTER TABLE "User" DROP COLUMN "password";
 
 -- DropTable
 DROP TABLE "SocialLogin";

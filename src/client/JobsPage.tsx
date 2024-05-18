@@ -134,11 +134,11 @@ function JobsPage({ user }: { user: User }) {
                     </HStack>
                     <VStack alignItems={'space-between'} my={1}>
                       <Text>
-                        <b>Location:</b> {job.location}
+                        <b>Name of QA:</b> {job.location}
                       </Text>
                       <HStack pb={1}>
                         <Text>
-                          <b>Description:</b>
+                          <b>Learning objectives:</b>
                         </Text>
                         <Button
                           size='xs'
