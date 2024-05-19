@@ -1,4 +1,10 @@
 # QAGPT
+Nhóm 6:
+Thành viên:
+1. Hà Như Ý - 22022636
+2. Nguyễn Mạnh Cường - 22022516
+3. Đoàn Nhật Bình - 22022543
+Link báo cáo, video demo: https://drive.google.com/drive/folders/1ziOA_4f7i7DeET9gP46tL1EAwqmVHYAH?usp=sharing
 
 <img src='MainPage3.png' width='600px'/>
 
